@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html></html>
+<head>
+<title>Patient Registration Form</title>
+</head>
+    <body>
+
+<!-- Hospital Logo -->
+<img src="https://tse2.mm.bing.net/th/id/OIP.X7Fy07Ug-cPQxRrugiNhIQHaH_?w=1000&h=1080&rs=1&pid=ImgDetMain&o=7&rm=3" alt="Hospital Logo" width="120">
+
+<h2>Patient Registration Form</h2>
+
+<form>
+
+<!-- Fieldset to group patient information -->
+<fieldset>
+<legend>Patient Information</legend>
+
+<!-- Patient Name -->
+<label for="name">Patient Name:</label><br>
+<input type="text" id="name" name="name"><br><br>
+
+<!-- Patient Email -->
+<label for="email">Patient Email Address:</label><br>
+<input type="email" id="email" name="email"><br><br>
+
+<!-- Patient Phone -->
+<label for="phone">Patient Phone Number:</label><br>
+<input type="tel" id="phone" name="phone"><br><br>
+
+<!-- Date of Birth -->
+<label for="dob">Date of Birth:</label><br>
+<input type="date" id="dob" name="dob"><br><br>
+
+<!-- Gender -->
+<label>Gender:</label><br>
+<input type="radio" name="gender" value="Male"> Male<br>
+<input type="radio" name="gender" value="Female"> Female<br><br>
+
+<!-- Symptoms -->
+<label>Symptoms:</label><br>
+<input type="checkbox" name="symptoms" value="Fever"> Fever<br>
+<input type="checkbox" name="symptoms" value="Cough"> Cough<br>
+<input type="checkbox" name="symptoms" value="Headache"> Headache<br>
+<input type="checkbox" name="symptoms" value="Fatigue"> Fatigue<br><br>
+
+<!-- Department Dropdown -->
+<label for="department">Department:</label><br>
+<select id="department" name="department">
+    <option value="General Medicine">General Medicine</option>
+    <option value="Pediatrics">Pediatrics</option>
+    <option value="Surgery">Surgery</option>
+    <option value="Dental">Dental</option>
+</select><br><br>
+
+<!-- Medical Notes -->
+<label for="notes">Additional Medical Notes:</label><br>
+<textarea id="notes" name="notes" rows="4" cols="40"></textarea><br><br>
+
+</fieldset>
+
+<!-- Buttons -->
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+
+</form>
+
+</body>
+</html>
